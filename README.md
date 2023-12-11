@@ -21,7 +21,7 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados:
 ## Instalação
 
 1. Clone este repositório: https://github.com/JuanCesnik/DevPro/tree/main/Pagina%20do%20Mario
-2. Navegue até o diretório do projeto: `cd seu-projeto`
+2. Navegue até o diretório do projeto
 3. Abra o arquivo `index.html` no seu navegador ou inicie um servidor local.
 
 ## Configuração do Formulário
