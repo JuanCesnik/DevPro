@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background: #000000;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Garante que a altura da página é 100% da altura visível da janela do navegador */
+  display: flex;
+  flex-direction: column; /* Define a direção da coluna */
+  align-items: center; /* Centraliza itens na direção transversal (verticalmente) */
+  text-align: center; 
+}
+
+img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  display: block; /* Remove o espaçamento extra abaixo da imagem */
+  margin: 0 auto; /* Centraliza horizontalmente dentro do contêiner */
+}
+
+input{
+  width: 250px;
+  height: 50px;
+  color: #ffffffff;
+  border-radius: 14px;
+  padding-left: 10px;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+button{
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  background: #AEC346;
+  color: #ffffffff;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+p{
+  color: #ffffffff;
+  font-size: 25px;
+  margin-bottom: 15px;
+  line-height: 28px;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+button:active{
+  opacity: 0.6;
+}
